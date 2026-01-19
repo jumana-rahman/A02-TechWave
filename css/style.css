@@ -241,3 +241,41 @@ nav .btn i{
     text-transform: uppercase;
 }
 /* About Section End */
+
+/* Choose Section Start */
+#choose{
+    padding: 80px 0;
+    background: #230E3D;
+}
+.choose-contents{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+.audio{
+    grid-row: span 2;
+    grid-column: auto;
+    align-content: center;
+}
+.interview{
+    grid-column: span 1/2;
+}
+.choose-contents .card{
+    padding: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    align-content: center;
+}
+.choose-contents .card h3{
+    font-size: 1.5rem;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+.choose-contents .card p{
+    font-size: 1rem;
+    line-height: 28px;
+    width: 300px;
+}
+/* Choose Section End */
