@@ -275,9 +275,38 @@ nav .btn i{
 }
 /* Choose Section End */
 
-/* Episode Section Start */
+/* Featured Episode Section Start */
 #episodes{
     padding: 80px 0;
     background: #1A0B2E;
 }
-/* Episode Section End */
+.episode-card{
+    padding-top: 50px;
+    max-width: 380px;
+}
+.card-body{
+    padding: 24px;
+    background: #250D44;
+}
+.card-body h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 28px;
+}
+.card-body p{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 28px;
+    width: 332px;
+    padding: 16px 0;
+}
+.card-body span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+}
+.card-body span i{
+    padding-left: 8px;
+}
+/* Featured Episode Section End */
