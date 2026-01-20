@@ -321,8 +321,12 @@ nav .btn i{
     padding-top: 50px;
     max-width: 380px;
 }
+.card-header{
+    max-width: 380px;
+}
 .card-header iframe{
     border-radius: 20px 20px 0 0;
+    width: fill;
 }
 .card-body{
     padding: 24px;

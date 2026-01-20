@@ -88,12 +88,57 @@
 
 /* Medium Devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    
+    .container{
+        width: 95%;
+    }
+    /* Header */
+    nav{
+        justify-content: space-around;
+    }
+    .m-absolute{
+        right: 41.5%;
+    }
+    .badge{
+        right: 25%;
+    }
+    /* Header */
+
+    /* About Section */
+    .about-contents{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    /* About Section */
+
+    /* Episodes */
+    .episodes-content{
+        flex-wrap: wrap;
+    }
+    /* Episodes */
 }
 /* Medium Devices */
 
 /* Large Device */
 @media screen and (min-width: 992px) {
-    
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 95%;
+    }
+
+    /* Choose */
+    .choose-contents .card p{
+        width: 350px;
+    }
+    /* Choose */
+    /* Episodes */
+    /* .card-header{
+        max-width: 280px;
+    }
+    .card-header iframe{
+        width: auto;
+    } */
+    /* Episodes */
 }
 /* Large Device */
