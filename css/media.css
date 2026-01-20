@@ -1,0 +1,99 @@
+/* Small devices (up to 576px) */
+@media screen and (max-width: 576px) {
+
+    /* Header */
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .menu{
+        display: none;
+    }
+    nav > button{
+        display: none;
+    }
+    .hamburger{
+        display: inline;
+        margin-right: 15px;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .m-absolute{
+        right: 39.5%;
+    }
+    .badge{
+        right: 24%;
+    }
+    .banner-info p{
+        line-height: 28px;
+    }
+    .section-header h3{
+        line-height: 60px;
+    }
+    /* Header */
+
+    /* About Section */
+    .about-contents{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    /* About Section */
+
+    /* Choose Section */
+    .choose-contents{
+        display: block;
+    }
+    .choose-contents .card{
+        margin-bottom: 16px;
+    }
+    .choose-contents .card h3{
+        line-height: 25px;
+    }
+    /* Choose Section */
+
+    /* Episodes Section */
+    .episodes-content{
+        display: block;
+        margin-left: 15%;
+    }
+    
+    /* Episodes Section */
+
+    /* Host Section */
+    .host-content{
+        display: block;
+        text-align: center;
+    }
+    .host-info h3{
+        padding-top: 10px;
+    }
+    .host-icons{
+        justify-content: center;
+    }
+    /* Host Section */
+
+    /* Footer */
+    .footer-socials{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .footer-socials li{
+        margin: 0 auto;
+    }
+    /* Footer */
+}
+/* Small devices  */
+
+/* Medium Devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+}
+/* Medium Devices */
+
+/* Large Device */
+@media screen and (min-width: 992px) {
+    
+}
+/* Large Device */
