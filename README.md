@@ -6,8 +6,6 @@ A simple and fully responsive website built to practice modern frontend developm
 
 ---
 
-<h2>📸 Project Screenshot</h2>
-
 <p align="center">
   <img src="/assets/Screenshot_81.jpg" alt="TechWave Screenshot" width="100%" />
 </p>
